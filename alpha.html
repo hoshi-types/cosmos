@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <!-- Website created by Kenny Yu-->
+
+        <!-- Title of the website -->
+        <title>Cosmos</title>
+
+        <!-- CSS external link -->
+         <link href="alpha.css" rel="stylesheet" type="text/css">
+
+         <!-- Font of 'Marck Script'-->
+         <link rel="preconnect" href="https://fonts.googleapis.com">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+         <link href="https://fonts.googleapis.com/css2?family=Marck+Script&display=swap" rel="stylesheet">
+         
+        <!-- Font of 'Anton'-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Marck+Script&display=swap" rel="stylesheet">
+        
+        <!-- Favicon -->
+
+         
+        <!-- This font link is for Chakra Petch-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    
+       
+
+        <!-- media for this page -->
+         <link href="media-1.css" rel="stylesheet" type="text/css">
+
+         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+         
+    </head>
+    <body>
+        
+
+        
+        <!-- Logo of website-->
+        <h1 class="logo">Cosmos</h1>
+    
+        <!-- Heading in the middle of the main homepage -->
+         <h2 class="below-logo">Kenny's Personal Website</h2>
+        
+<!-- for mobiel version -->
+
+<div class="mobile-intro">
+<h2 class="below-logo-mobile">Kenny's Personal Website</h2>
+<h2 class="below-logo-mobile">- - MOBILE Size - -</h2>
+</div>
+
+
+
+<hr class="hrhr">
+
+
+
+        <!--Buttons-->
+
+        <div class="buttons">
+                <a href="websites.html">
+                    <button class="buttonlinks" onmouseover="openImages(event, 'website')" onmouseout="makeImgVanish(event, 'website')">Websites</button></a>
+                <br>
+                <a href="search-questions.html">
+                    <button class="buttonlinks" onmouseover="openImages(event, 'questionit')" onmouseout="makeImgVanish(event, 'questionit')">Questions</button></a>
+                    <br>
+                <a href="#">
+                    <button class="buttonlinks" onclick="gameClicky()" onmouseover="openImages(event, 'gallery')" onmouseout="makeImgVanish(event, 'gallery')">Gallery</button></a>
+                <br>
+                <a href="#" id="no-go">
+                    <button class="buttonlinks" onclick="gameClicky()" onmouseover="openImages(event, 'games')" onmouseout="makeImgVanish(event, 'games')">Games</button></a>
+        </div>
+        
+<!-- images that show up when hovering over a button-->
+        <div id="website" class="buttoncontent">
+            <img src="image-website.png" alt="websites" class="img-standard">
+
+        </div>
+
+        <div id="questionit" class="buttoncontent">
+            <img src="image-question.png" alt="websites" class="img-standard">
+
+        </div>
+        <div id="gallery" class="buttoncontent">
+            <img src="question.png" alt="gallery" class="img-standard">
+        </div>
+        
+        <div id="games" class="buttoncontent">
+            <img src="question.png" alt="games" class="img-standard">
+
+        </div> 
+
+
+
+
+        <div class="clearfix"></div>
+
+
+
+        <div class="astro-placed">
+            <img src="astro edited.png" alt="astro" class="astro" id="astro-click" onclick="astroClicky()">
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+          <!-- background video -->
+          <video autoplay loop muted class="bg-video-base">
+            <source src="galaxy.mp4" type="video/mp4">
+        </video>
+        
+        
+
+<br><br>
+
+
+
+        <h3 class="copyright-section">Kenny Yu</h3>
+            <div class="footer-moon">
+       
+            <img src="Moon2.png" alt="moon" class="moon-footer">
+        
+            </div>
+
+
+
+
+
+
+        <script src="cosmos.js"></script>
+    </body>
+
+</html>

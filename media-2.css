@@ -1,0 +1,170 @@
+@media only screen and (max-width: 390px ) and (max-height: 844px ) {
+    body {
+        max-width: 390px;
+        max-height: 844px;
+      background-color: black;
+
+    }
+
+    .bg-video-base {
+
+        display: none;
+    }
+
+   .hidden {
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+   }
+
+section {
+    width: 100px;
+    height: 100px;
+}
+
+.heading {
+    position: relative;
+    left: 70px;
+   
+}
+
+.back-button-contain {
+    width: 80px;
+    height: 90px;
+    position: relative;
+}
+
+
+.details-section1 {
+    position: relative;
+   right: 10px;
+    font-size: 20px;
+    width: 370px;
+    bottom: 40px;
+}
+
+.heading2 {
+    position: relative;
+font-size: 40px;
+left: 20px;
+width: 300px;
+}
+
+
+
+
+.img-buttons {
+    position: relative;
+    
+    width: 300px;
+}
+
+.img-1 {
+    position: relative;
+    left: 20px;
+    
+}
+
+.img-2 {
+    position: relative;
+    left: 20px;
+    margin: 70px;
+}
+
+.empty-box {
+    position: relative;
+    left: 20px;
+    padding: 0;
+}
+
+.empty-box2 {
+    position: relative;
+    left: 60px;
+    
+}
+
+.copyright-section2 {
+    position: absolute;
+    top: 2300px;
+    width: 300px;
+    left: 40px;
+   
+}
+
+.thuy {
+    pointer-events: none;
+}
+
+.heading5 {
+    display: block;
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Tilt Neon';
+  }
+
+  .heading6 {
+    display: block;
+    color: white;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Chakra Petch';
+    font-style:italic;
+    position: relative;
+    bottom: 50px;
+  }
+
+
+
+}
+
+@media only screen and (max-width: 844px ) and (max-height: 390px ) {
+
+   #back-button {
+    width: 200px;
+    height: 80px;
+    font-size: 20px;
+   }
+
+.heading3 {
+position: relative;
+right: 370px;
+font-size: 50px;
+}
+
+.details-section1 {
+    position: relative;
+    right: 610px;
+    width: 700px;
+    font-size: 20px;
+}
+
+
+.heading2 {
+    position: relative;
+    right: 610px;
+    font-size: 50px;
+}
+
+.hidden {
+    position: relative;
+     right: 0;
+     width: 800px;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+  
+}
+
+.bg-video-base {
+    display: none;
+}
+
+body {
+    background-color: black;
+}
+
+}

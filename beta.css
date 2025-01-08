@@ -1,0 +1,180 @@
+
+
+body {
+    background-color: black;
+}
+
+.search-section {
+    width: 500px;
+    margin: 200px auto 0;
+    background-color: #fff;
+    border-radius: 5px;
+    z-index: 5;
+    position: absolute;
+    left: 600px;
+}
+
+.rows {
+    display: flex;
+    align-items: center;
+    
+}
+
+input {
+    flex: 1;
+    height: 50px;
+    background: transparent;
+border: 0;
+outline: 0;
+font-size: 18px;
+color: rgb(0, 0, 0);
+
+}
+
+button {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding-left: 230px;
+}
+
+button .fa-solid {
+    width: 25px;
+    color: #555;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.result-boxes ul {
+    list-style-type: none;
+    font-size: 18px;
+    padding: 15px 10px;
+}
+
+.result-boxes ul li {
+    padding: 15px 10px;
+    cursor: pointer;
+    list-style: none;
+   
+}
+
+.result-boxes li:hover {
+background-color: rgb(181, 181, 181);
+
+}
+
+
+/* background */
+
+.darkened {
+    background-color: black;
+    width: 100%;
+    height: 951px;
+    opacity: 0.7;
+    position: fixed;
+    z-index: 4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+  }
+
+  .bg-video-base {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 300px;
+    width: 100%;
+    bottom: 2;
+    
+}
+
+/* scroll for the top */
+
+section {
+   
+    color: white;
+    z-index: 4;
+    position: relative;
+    font-size: 50px;
+    left: 500px;
+    width: 900px;
+    
+    padding: 0;
+    margin: 0;
+  }
+
+  .hidden {
+    opacity: 0;
+    
+    transition: all 1s;
+    filter: blur(5px);
+    transform: translateX(-100%);
+      }
+    
+      .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+      }
+
+      .pbox {
+        text-align: center;
+        font-size: 25px;
+        position: absolute;
+        right: 200px;
+        top: 150px;
+        font-family: 'Chakra Petch';
+      }
+
+    
+      .heading3 {
+        font-size: 70px;
+        position: absolute;
+        right: 380px;
+        font-family: 'Chakra Petch';
+      }
+
+      .copyright-section2 {
+        text-align: center;
+        font-family: 'Chakra Petch';
+        font-size: 30px;
+        z-index: 4;
+        position: relative;
+        color: white;
+        letter-spacing: 20px;
+       top: 600px;
+       padding-bottom: 30px;
+      }
+    /* -------------------------------------------------------------------------------- */
+
+    button {
+      font-size: 40px;
+      font-family: Anton;
+      text-transform: uppercase;
+      background: none;
+      color: white;
+      width: 500px;
+      opacity: 0.8;
+      background-color: rgb(53, 53, 53);
+      margin-top: 40px;
+      letter-spacing: 10px;
+      border-radius: 10px;
+      z-index: 10;
+      position: absolute;
+      right: 1400px;
+      text-align: center;
+      height: 90px;
+  }
+
+  button:hover {
+    cursor: pointer;
+    background-color:rgb(212, 167, 255);
+    transition: 200ms;
+    width: 600px;
+    text-align: center;
+  }
+
+.mobile-heading3 {
+  display: none;
+}
+
